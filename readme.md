@@ -9,19 +9,9 @@ Un crawler web rapide développé en **Rust**. Ce projet exploite le modèle de 
 - **Respect du Roboting & Politesse** : Prise en charge des limites de débit (*rate limiting*) et du fichier `robots.txt`.
 - **Gestion Stricte des Erreurs** : Résilience face aux échecs réseau, erreurs HTTP (4xx, 5xx) et timeouts.
 
-## 📁 Structure du Projet
-
-```text
-.
-├── Cargo.toml      # Fichier de configuration du projet et gestion des dépendances
-├── Cargo.lock
-└── src/
-    └── main.rs      # Point d'entrée principal du code source
-```
-
 ## Prérequis
 
-* **Rust** et **Cargo** (installables via `rustup` ou le gestionnaire de paquets de votre système).
+* **Rust** et **Cargo**
 
 ## Compilation et Exécution
 
